@@ -2,6 +2,7 @@
 api_key = "";
 latitude = 51.51270304480631;
 longitude = -0.09094876178626689;
+% required_quality = 'MEDIUM';
 required_quality = 'HIGH';
 
 % Create URL and get response
