@@ -1,0 +1,6 @@
+# ignore text files, movie files, and Apple system files
+notes/
+*.mov
+*.mp4
+*.mat
+.DS_Store
