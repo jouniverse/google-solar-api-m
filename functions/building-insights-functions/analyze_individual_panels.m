@@ -108,4 +108,20 @@ ylabel('Number of Panels');
 % grid on;
 
 
+% Analyze total energy production vs time. Take into account the panel efficiency depreciation factor. Depreciation factor is 0.5% per year.
+figure('Name', 'Max Array Total Energy Production vs Time (depreciation factor = 0.5%, lifetime = 20 years)', 'Position', [100, 100, 1200, 800]);
+total_energy = sum(energiesPanels);
+depreciation_factor = 0.005;
+years = 20;
+total_energy_depreciated = zeros(1, years);
+for i = 1:years
+    total_energy_depreciated(i) = total_energy * (1 - depreciation_factor)^i;
+end
+bar(1:years, total_energy_depreciated);
+title('Max Array Total Energy Production vs Time (depreciation factor = 0.5%, lifetime = 20 years)');
+xlabel('Time (years)');
+ylabel('Total Energy (kWh DC/year)');
+% grid on;
+ylim([min(total_energy_depreciated) - 0.1*max(total_energy_depreciated), max(total_energy_depreciated)+0.03*max(total_energy_depreciated)]);
+
 

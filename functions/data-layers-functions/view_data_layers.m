@@ -2,8 +2,8 @@
 % Google Maps API key
 api_key = "";
 % Location
-latitude = 61.4650;
-longitude = 21.8426;
+latitude = 51.51270304480631;
+longitude = -0.09094876178626689;
 
 radius_meters = 75;
 required_quality = 'HIGH';
