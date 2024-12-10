@@ -52,6 +52,7 @@ More features will be added in the next version:
 - Add economic analysis for locations, especially if the service becomes available outside the US.
 - Add more detailed analysis of the results, such as life cycle cost analysis.
 - Add decision making tools.
+- Add complementary information from other APIs (like PVGIS or OpenWeatherMap).
 
 ## License
 
