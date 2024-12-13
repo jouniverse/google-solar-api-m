@@ -1,6 +1,6 @@
 # PV PRO
 
-**PV PRO** is a MATLAB app for exploring the _Google Maps Solar API_. It can be used to design rooftop PV systems and analyze their performance. It can access the Google Maps Solar API to get solar data for a given location. Google Maps API key is required to use the app.
+**PV PRO** is a MATLAB app for exploring the _Google Maps Solar API_. It can be used to design rooftop PV systems and analyze their performance. It can access the Google Maps Solar API to get solar data for a given location. Google Maps API key is required to use the app. Remember to enable the Solar API in the Google Maps API console.
 
 ## Google Maps Solar API
 
